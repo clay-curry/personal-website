@@ -1,6 +1,9 @@
 layout: sidebar
 style: light
 
+baseurl: /personal-website
+url: http://clay-cury.github.io
+
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
