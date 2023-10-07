@@ -20,15 +20,54 @@ defaults:
       layout: "post"
 
 
+
+topics:
+  - name: JavaScript Technologies
+    web_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/220px-Unofficial_JavaScript_logo_2.svg.png
+
+  - name: Machine Independent Programming Languages
+    web_url: https://www.cs.utexas.edu/users/EWD/transcriptions/MCreps/MR34.html
+
+  - name: webpack
+    web_url: https://github.com/webpack/webpack
+    image_url: https://webpack.js.org/assets/icon-square-big.svg
+
+  - name: Static Code Analysis
+    web_url: https://en.wikipedia.org/wiki/Static_program_analysis
+
+  - name: The LLVM Compiler
+    web_url: https://llvm.org/
+    image_url: https://llvm.org/img/LLVMWyvernSmall.png
+
+  - name: Systems Engineering
+    web_url: https://en.wikipedia.org/wiki/Systems_engineering
+
+  - name: v8 Engine
+    web_url: https://v8.dev/
+    image_url: https://v8.dev/_img/v8.svg
+
+  - name: Frontend Development
+    web_url: https://en.wikipedia.org/wiki/Front-end_web_development
+
+  - name: tailwindcss
+    web_url: https://tailwindcss.com/
+    image_url: https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg
+
+  - name: NextJS
+    web_url: https://nextjs.org/
+    image_url: https://assets.vercel.com/image/upload/v1538361091/repositories/next-js/next-js-bg.svg
+
+
 projects:
   sort_by: pushed
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 3
   exclude:
-    archived: false
-    forks: false
+    archived: true
+    forks: true
     projects:
     # - repo-name
 
@@ -44,19 +83,8 @@ projects:
   # medium: your_username
   # stackoverflow: your_user_id
   # telegram: your_username
-  # twitter: your_username
+  # twitter: claycurry_
   # unsplash: your_username
   # vk: your_username
   # website: http://claycurry.com
   # youtube: your_username
-
-topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-
-  - name: Web design
-
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
