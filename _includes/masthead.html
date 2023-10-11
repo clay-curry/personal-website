@@ -28,9 +28,15 @@
     {% endif %}
     <div class="{{ metadata_styles }}">
       {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
-      <a href="mailto:mail@claycurry.com" {% if site.style == 'dark' %}class="text-white"{% endif %}>
-        mail@claycurry.com
-      </a>
+      <div {% if site.style == 'dark' %}class="text-white"{% endif %}>
+        me['a']&lt;current_url&gt; (primary)
+      </div>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
+      <div {% if site.style == 'dark' %}class="text-white"{% endif %}>
+        hire['a']&lt;current_url&gt; (employers)
+      </div>
     </div>
     {% if site.social_media %}
       <div class="d-flex flex-wrap flex-items-start {% if site.layout == 'stacked' %}flex-justify-center mt-1 mt-md-3{% endif %}">
