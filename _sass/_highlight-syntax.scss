@@ -63,3 +63,53 @@
 .highlight .lineno {-webkit-user-select: none;-moz-user-select: none; -o-user-select: none;}
 .lineno::-moz-selection {background-color: transparent;} /* Mozilla specific */
 .lineno::selection {background-color: transparent;} /* Other major browsers */
+
+
+
+
+*, *::before, *::after {
+box-sizing: border-box;
+}
+
+@keyframes rotate {
+100% {
+    transform: rotate(1turn);
+}
+}
+
+.rainbow {
+position: relative;
+padding: 8px;
+z-index: 0;
+width: 400px;
+height: 150px;
+border-radius: 10px;
+overflow: hidden;
+background: white;
+
+&::before {
+    content: '';
+    position: absolute;
+    z-index: -2;
+    left: -13.6px;
+    top: -138.6px;
+    width: 427px;
+    height: 427px;
+    background-color: #399953;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-image: linear-gradient(#399953, #399953), linear-gradient(#fbb300, #fbb300), linear-gradient(#d53e33, #d53e33), linear-gradient(#377af5, #377af5);
+    animation: rotate 4s linear infinite;
+}
+
+}
+
+@keyframes opacityChange {
+50% {
+    opacity:1;
+}
+100% {
+    opacity: .5;
+}
+}

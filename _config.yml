@@ -26,37 +26,55 @@ topics:
     web_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
     image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/220px-Unofficial_JavaScript_logo_2.svg.png
 
-  - name: Machine Independent Programming Languages
-    web_url: https://www.cs.utexas.edu/users/EWD/transcriptions/MCreps/MR34.html
+  - name: WebAssembly
+    web_url: https://webassembly.org/
+    image_url: https://webassembly.org/css/webassembly.svg
+
+  - name: The LLVM Compiler
+    web_url: https://llvm.org/
+    image_url: https://llvm.org/img/LLVMWyvernSmall.png
+  
+  - name: Docker
+    web_url: https://www.docker.com/
+    image_url: https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png
 
   - name: webpack
     web_url: https://github.com/webpack/webpack
     image_url: https://webpack.js.org/assets/icon-square-big.svg
 
-  - name: Static Code Analysis
-    web_url: https://en.wikipedia.org/wiki/Static_program_analysis
+  - name: esbuild
+    web_url: https://esbuild.github.io/
+    image_url: https://esbuild.github.io/favicon.svg
 
-  - name: The LLVM Compiler
-    web_url: https://llvm.org/
-    image_url: https://llvm.org/img/LLVMWyvernSmall.png
+  - name: Compiler / Systems Optimization
+    web_url: https://www.ibm.com/docs/en/aix/7.2?topic=tuning-compiler-optimization-techniques
+  
+  - name: Bun
+    web_url: https://bun.sh/
+    image_url: https://user-images.githubusercontent.com/709451/182802334-d9c42afe-f35d-4a7b-86ea-9985f73f20c3.png
 
-  - name: Systems Engineering
-    web_url: https://en.wikipedia.org/wiki/Systems_engineering
-
-  - name: v8 Engine
-    web_url: https://v8.dev/
-    image_url: https://v8.dev/_img/v8.svg
-
-  - name: Frontend Development
-    web_url: https://en.wikipedia.org/wiki/Front-end_web_development
+  - name: PostCSS
+    web_url: https://postcss.org/
+    image_url: https://postcss.org/assets/postcss-83d93145.svg
 
   - name: tailwindcss
     web_url: https://tailwindcss.com/
     image_url: https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg
 
-  - name: NextJS
-    web_url: https://nextjs.org/
-    image_url: https://assets.vercel.com/image/upload/v1538361091/repositories/next-js/next-js-bg.svg
+  - name: The Design of Everyday Things
+    web_url: https://www.amazon.com/Design-Everyday-Things-Revised-Expanded-ebook/dp/B00E257T6C
+    image_url: https://m.media-amazon.com/images/I/71LBfNStp9L._SL1500_.jpg
+    
+  - name: Nielsen Norman Group
+    web_url: https://www.nngroup.com/
+    image_url: https://media.nngroup.com/static/img/logo-817x388.png
+
+  - name: Machine Independent Programming Languages
+    web_url: https://www.cs.utexas.edu/users/EWD/transcriptions/MCreps/MR34.html
+  
+  - name: Selected Papers on Computer Languages
+    web_url: https://www-cs-faculty.stanford.edu/~knuth/cl.html
+
 
 
 projects:
@@ -69,7 +87,7 @@ projects:
     archived: true
     forks: true
     projects:
-    # - repo-name
+      - clay-curry
 
 # social_media:
   # behance: your_username
