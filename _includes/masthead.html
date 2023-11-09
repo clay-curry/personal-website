@@ -29,13 +29,7 @@
     <div class="{{ metadata_styles }}">
       {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
       <div {% if site.style == 'dark' %}class="text-white"{% endif %}>
-        me['a']&lt;current_url&gt; (primary)
-      </div>
-    </div>
-    <div class="{{ metadata_styles }}">
-      {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
-      <div {% if site.style == 'dark' %}class="text-white"{% endif %}>
-        hire['a']&lt;current_url&gt; (employers)
+        <a src="mailto:me@claycurry.com">me@claycurry.com</a>
       </div>
     </div>
     {% if site.social_media %}
